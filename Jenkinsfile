@@ -10,12 +10,7 @@ pipeline {
                 echo 'code checkout'
             }
         }
-    stages {
-        stage('build') {
-            steps {
-                 echo 'build'
-            }
-        }
+
     stages {
         stage('unit tests') {
            steps {
