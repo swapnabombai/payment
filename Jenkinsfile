@@ -1,4 +1,4 @@
 @Library('roboshop') _
 
-env.cibuild = "paython"
+env.cibuild = "python"
 payment()
